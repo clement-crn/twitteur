@@ -1,0 +1,46 @@
+.leftmenucontainer {
+    background-color: rgb(244, 244, 244);
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.leftmenucontainer a {
+    color: rgb(0, 0, 0);
+}
+
+li a {
+    display: block;
+    width: 60px;
+
+    text-decoration: none;
+}
+
+.leftmenucontainer li {
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.leftmenucontainer li a {
+    display: flex;
+    width: 60px;
+
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 650px) {
+    .leftmenucontainer p {
+        display: none;
+    }
+    .leftmenucontainer {
+        background-color: rgb(223, 226, 223);
+        width: 15%;
+        height: 100%;
+        position: absolute;
+    }
+}
