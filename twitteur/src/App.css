@@ -1,7 +1,14 @@
 .App {
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
 }
 
+.Home {
+    display: flex;
+
+    height: 100vh;
+}
 .App-logo {
     height: 40vmin;
     pointer-events: none;

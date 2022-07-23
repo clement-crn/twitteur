@@ -1,0 +1,11 @@
+.rightmenunavcontainer {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    border-radius: 20px;
+    height: 90%;
+    width: 80%;
+}
+
+ul li {
+    list-style: none;
+}
