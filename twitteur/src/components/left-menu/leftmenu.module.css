@@ -12,25 +12,22 @@
 }
 
 li a {
-    display: block;
-    width: 60px;
-
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .leftmenucontainer li {
     list-style: none;
     margin-bottom: 20px;
-    display: flex;
-    align-items: center;
 }
 .leftmenucontainer li a {
-    display: flex;
-    width: 60px;
-
     text-decoration: none;
-    align-items: center;
-    justify-content: center;
+}
+
+.leftmenucontainer img {
+    width: 30px;
+    padding-right: 20px;
 }
 
 @media (max-width: 650px) {

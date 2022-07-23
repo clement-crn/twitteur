@@ -31,10 +31,10 @@ export default function Leftmenu() {
                                 className="home"
                                 src={home}
                                 alt=""
-                                width="40px"
+                                width="50px"
                             />
+                            <p>Home</p>
                         </a>
-                        <p>Home</p>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -44,8 +44,8 @@ export default function Leftmenu() {
                                 alt=""
                                 width="25px"
                             />
+                            <p>Explore</p>
                         </a>
-                        <p>Explore</p>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -55,8 +55,8 @@ export default function Leftmenu() {
                                 alt=""
                                 width="34px"
                             />
+                            <p>Notifications</p>
                         </a>
-                        <p>Notifications</p>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -66,8 +66,8 @@ export default function Leftmenu() {
                                 alt=""
                                 width="30px"
                             />
+                            <p>Messages</p>
                         </a>
-                        <p>Messages</p>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -77,8 +77,8 @@ export default function Leftmenu() {
                                 alt=""
                                 width="27px"
                             />
+                            <p>Bookmarks</p>
                         </a>
-                        <p>Bookmarks</p>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -88,8 +88,8 @@ export default function Leftmenu() {
                                 alt=""
                                 width="27px"
                             />
+                            <p>Lists</p>
                         </a>
-                        <p>Lists</p>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -99,8 +99,8 @@ export default function Leftmenu() {
                                 alt=""
                                 width="35px"
                             />
+                            <p>Profile</p>
                         </a>
-                        <p>Profile</p>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -110,8 +110,8 @@ export default function Leftmenu() {
                                 alt=""
                                 width="30px"
                             />
+                            <p>More</p>
                         </a>
-                        <p>More</p>
                     </li>
                 </ul>
             </div>
