@@ -1,11 +1,32 @@
 .rightmenunavcontainer {
-    background-color: rgb(60, 60, 60);
-    color: white;
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
     border-radius: 20px;
-    height: 90%;
-    width: 80%;
+    height: 100%;
+    width: 60%;
+    max-width: 50%;
+    min-width: 170px;
 }
-
 ul li {
     list-style: none;
+}
+
+.httitle {
+    padding-top: 1px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.ht a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.ht {
+    margin-top: 15px;
+}
+.underht {
+    font-size: 10px;
 }
