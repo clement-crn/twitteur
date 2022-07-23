@@ -1,4 +1,5 @@
 import styles from "./rightmenunav.module.css";
+import dots from "../../img/dots-icon.png";
 
 export default function Rightmenunav() {
     return (
@@ -6,7 +7,7 @@ export default function Rightmenunav() {
             <div className={styles.httitle}>
                 <p>Trends for you</p>
             </div>
-            <ul>
+            <ul className={styles.htul}>
                 <div className={styles.htcontainer}>
                     <li className={styles.ht}>
                         <a href="#">#React.JS</a>
