@@ -1,0 +1,25 @@
+.searchbarcontainer {
+    background: rgb(246, 246, 246);
+    width: 50%;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin: 20px;
+}
+
+.searchinput {
+    -webkit-transition: all 420ms ease-in-out;
+    -moz-transition: all 420ms ease-in-out;
+    -o-transition: all 420ms ease-in-out;
+    transition: all 420ms ease-in-out;
+
+    font-family: "Alegreya Sans SC", sans-serif;
+    width: 90%;
+
+    padding: 10px 0 10px 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    background: rgb(246, 246, 246);
+    border: none;
+    border-radius: 20px;
+}

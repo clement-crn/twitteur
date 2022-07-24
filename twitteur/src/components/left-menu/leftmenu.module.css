@@ -3,8 +3,6 @@
     width: 100%;
     max-width: 300px;
     height: 100%;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
 }
 
 .leftmenucontainer a {
@@ -26,7 +24,6 @@ li a {
 }
 
 .leftmenucontainer img {
-    width: 30px;
     padding-right: 20px;
 }
 

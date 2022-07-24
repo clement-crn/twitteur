@@ -1,6 +1,5 @@
 import styles from "./leftmenu.module.css";
 import home from "../../img/home-icon.png";
-
 import bell from "../../img/bell-icon.png";
 import logo from "../../img/twitter-icon.png";
 import hashtag from "../../img/hashtag-icon.png";
@@ -39,10 +38,10 @@ export default function Leftmenu() {
                     <li>
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                             <img
-                                className="home"
+                                className="explore"
                                 src={hashtag}
                                 alt=""
-                                width="25px"
+                                width="20px"
                             />
                             <p>Explore</p>
                         </a>

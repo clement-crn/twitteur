@@ -1,6 +1,6 @@
 .wallcontainer {
-    border: 1px black solid;
-    height: 100vh;
+    border: 1px rgb(153, 153, 153) solid;
+    height: 2000px%;
     background-color: rgb(255, 255, 255);
     min-width: 40%;
 }

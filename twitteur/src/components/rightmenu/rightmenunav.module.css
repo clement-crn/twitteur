@@ -6,6 +6,8 @@
     width: 60%;
     max-width: 50%;
     min-width: 170px;
+    padding-left: 20px;
+    margin-left: 20px;
 }
 ul li {
     list-style: none;
