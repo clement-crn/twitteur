@@ -1,17 +1,17 @@
 import styles from "./searchbar.module.css";
 import loupe from "../../../img/loupe-icon.png";
+import TextField from "@mui/material/TextField";
 
 export default function Searchbar() {
     return (
-        <div className={styles.searchbarcontainer}>
-            <form class="search">
-                <input
-                    className={styles.searchinput}
-                    placeholder="Search Twitter"
-                    required="true"
-                    type="text"
+        <div className="main">
+            <div className="search">
+                <TextField
+                    id="outlined-basic"
+                    variant="outlined"
+                    label="Chercher sur twitteur"
                 />
-            </form>
+            </div>
         </div>
     );
 }
