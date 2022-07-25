@@ -1,0 +1,13 @@
+.sidebaroptioncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 40px;
+    margin: 10px;
+}
+
+.sidebaroptioncontainer svg {
+    padding: 20px;
+}

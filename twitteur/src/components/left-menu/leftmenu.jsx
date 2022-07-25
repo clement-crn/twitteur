@@ -1,119 +1,26 @@
 import styles from "./leftmenu.module.css";
-import home from "../../img/home-icon.png";
-import bell from "../../img/bell-icon.png";
-import logo from "../../img/twitter-icon.png";
-import hashtag from "../../img/hashtag-icon.png";
-import messages from "../../img/message-icon.png";
-import more from "../../img/dots-icon.png";
-import profile from "../../img/person-icon.png";
-import bookmark from "../../img/bookmark-icon.png";
-import lists from "../../img/list-icon.png";
 
+import HomeIcon from "@mui/icons-material/Home";
+import TagIcon from "@mui/icons-material/Tag";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import SidebarOption from "./sidebaroption/Sidebaroption";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
+import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
+import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+
+import { MoreHoriz } from "@mui/icons-material";
 export default function Leftmenu() {
     return (
         <div className={styles.leftmenucontainer}>
-            <div className="navbar">
-                <ul>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <img
-                                className="logo"
-                                src={logo}
-                                alt=""
-                                width="40px"
-                            />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <img
-                                className="home"
-                                src={home}
-                                alt=""
-                                width="50px"
-                            />
-                            <p>Home</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <img
-                                className="explore"
-                                src={hashtag}
-                                alt=""
-                                width="20px"
-                            />
-                            <p>Explore</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <img
-                                className="notifications"
-                                src={bell}
-                                alt=""
-                                width="34px"
-                            />
-                            <p>Notifications</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <img
-                                className="messages"
-                                src={messages}
-                                alt=""
-                                width="30px"
-                            />
-                            <p>Messages</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <img
-                                className="bookmarks"
-                                src={bookmark}
-                                alt=""
-                                width="27px"
-                            />
-                            <p>Bookmarks</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <img
-                                className="lists"
-                                src={lists}
-                                alt=""
-                                width="27px"
-                            />
-                            <p>Lists</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <img
-                                className="profile"
-                                src={profile}
-                                alt=""
-                                width="35px"
-                            />
-                            <p>Profile</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <img
-                                className="more"
-                                src={more}
-                                alt=""
-                                width="30px"
-                            />
-                            <p>More</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <SidebarOption Icon={HomeIcon} text="Home" />
+            <SidebarOption Icon={TagIcon} text="Explorer" />
+            <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
+            <SidebarOption Icon={MailOutlineIcon} text="Messages" />
+            <SidebarOption Icon={BookmarkBorderIcon} text="Marque page" />
+            <SidebarOption Icon={FormatListBulletedIcon} text="Listes" />
+            <SidebarOption Icon={PersonOutlineIcon} text="Profil" />
+            <SidebarOption Icon={MoreHoriz} text="Afficher plus" />
         </div>
     );
 }
