@@ -11,3 +11,9 @@
 .sidebaroptioncontainer svg {
     padding: 20px;
 }
+
+@media (max-width: 500px) {
+    .sidebaroptioncontainer h2 {
+        display: none;
+    }
+}
