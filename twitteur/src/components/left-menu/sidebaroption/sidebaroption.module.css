@@ -4,10 +4,14 @@
     justify-content: flex-start;
     font-size: 12px;
     cursor: pointer;
-    padding-left: 40px;
+    padding-left: 30px;
     margin: 10px;
 }
 
+.sidebaroptioncontainer:hover {
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+}
 .sidebaroptioncontainer svg {
     padding: 20px;
 }
