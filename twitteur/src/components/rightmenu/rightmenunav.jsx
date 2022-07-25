@@ -19,7 +19,7 @@ export default function Rightmenunav() {
 
                 <div className={styles.htcontainer}>
                     <li className={styles.ht}>
-                        <a href="#">#React.JS</a>
+                        <a href="#">#AndyLeezard</a>
                         <a className={styles.underht} href="#">
                             90K tweets
                         </a>
@@ -28,25 +28,25 @@ export default function Rightmenunav() {
 
                 <div className={styles.htcontainer}>
                     <li className={styles.ht}>
-                        <a href="#">#React.JS</a>
+                        <a href="#">#clementciron</a>
                         <a className={styles.underht} href="#">
-                            90K tweets
+                            20K tweets
                         </a>
                     </li>
                 </div>
 
                 <div className={styles.htcontainer}>
                     <li className={styles.ht}>
-                        <a href="#">#React.JS</a>
+                        <a href="#">#Morpheus</a>
                         <a className={styles.underht} href="#">
-                            90K tweets
+                            110K tweets
                         </a>
                     </li>
                 </div>
 
                 <div className={styles.htcontainer}>
                     <li className={styles.ht}>
-                        <a href="#">#React.JS</a>
+                        <a href="#">#ElonMusk</a>
                         <a className={styles.underht} href="#">
                             90K tweets
                         </a>
