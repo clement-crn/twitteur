@@ -2,5 +2,6 @@
     border: 1px rgb(153, 153, 153) solid;
     height: 2000px%;
     background-color: rgb(255, 255, 255);
-    min-width: 40%;
+    width: 70%;
+    min-width: 600px;
 }
