@@ -1,6 +1,6 @@
 .rightmenunavcontainer {
-    background-color: rgb(238, 238, 238);
-    color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    color: rgb(59, 59, 59);
     border-radius: 20px;
     height: 100%;
     width: 60%;
@@ -9,44 +9,10 @@
     padding-left: 20px;
     margin-left: 20px;
 }
-ul li {
-    list-style: none;
-}
 
 .httitle {
-    padding-top: 1px;
-    padding-left: 10px;
-    font-size: large;
-    font-weight: 700;
-}
-
-.ht a {
-    width: 100%;
-    text-decoration: none;
-    color: black;
-}
-.htul {
-    padding-left: 8px;
-    position: relative;
-}
-.ht {
-    margin-top: 15px;
-
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.underht {
-    font-size: 10px;
-}
-
-.htcontainer {
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    margin: 0px;
-}
-
-.htdots {
-    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    padding-top: 5px;
 }
