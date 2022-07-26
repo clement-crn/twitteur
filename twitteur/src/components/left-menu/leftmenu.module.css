@@ -1,3 +1,9 @@
 .leftmenucontainer {
-    width: 50%;
+    min-width: 300px;
+}
+
+@media (max-width: 800px) {
+    .leftmenucontainer {
+        min-width: 100px;
+    }
 }
